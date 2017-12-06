@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("font/Roboto-Light.ttf")
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("font/Roboto-Medium.ttf")
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("font/Roboto-Regular.ttf")
+}
+
+/* helper class */
+
+.degrade-blue {
+    background: linear-gradient(#6cfec6, #44d6cd);
+}
+
+.degrade-red {
+    background: linear-gradient(#f1644f, #ff3558);
+}
+
+.btn-rose {
+    font-family: Roboto-Medium;
+    cursor: pointer;
+    color: #fff;
+}
+.color-white{
+    color: #ffffff !important;
+}
+.color-dark-grey{
+    color: #3f4244 !important;
+}
+.color-light-grey{
+    color: #929ba0 !important;
+}
+.roboto-light{
+    font-family: Roboto-Light;
+}
+.roboto-medium{
+    font-family: Roboto-Medium;
+}
+.roboto-regular{
+    font-family: Roboto-regular;
+}
+h2 {
+    font-size: 3.5em !important;
+}
+
+/*HEADER*/
+
+header .nav-link:hover {
+    color: #fff !important;
+    background: linear-gradient(#6cfec6, #44d6cd);
+    border-radius: 5px;
+}
+
+/*HOME*/
+
+#home {
+    min-height: 100vh;
+}
+
+/*SECTION DESIGN */
+
+#design img{
+    margin-bottom: -25px;
+    height: auto;
+    max-width: 100%;
+}
+
+/*SECTION RESPONSIVE */
+
+#responsive img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*SECTION PORTFOLIO*/
+
+#portfolio {
+    min-height: 100vh;
+}
+#portfolio a:hover{
+    color: #fff !important;
+}
+
+
+/*SECTION STATS*/
+
+#stats{
+    background: #233537;
+}
+#stats p{
+    color: #10cab7;
+}
+
+/*SECTION TEAM*/
+
+#team .card-body{
+    background: #5df0c9;
+}
+
+
+/*SECTION NEWSLETTER*/
+#newsletter{
+    background: #233537;
+}
+
+#newsletter button{
+    background: transparent;
+    border-radius: 0;
+    border:solid 1px #6de7b5;
+}
+
+/*SECTION ABOUT*/
+
+#about img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*SECTION ADD*/
+
+#add img
+{
+    max-width: 100%;
+    height: auto;
+    margin-bottom:-80px;
+}
+
+#add span{
+    color: #243638;
+}
+
+/*SECTION MAP*/
+
+#map{
+    background: #232e3d;
+}
+#map span{
+    color: #243638;
+}
+
+/*SECTION CONTACT*/
+
+#contact input{
+    background: transparent;
+    border: solid 1px #fff;
+    border-radius: 0;
+}
+#contact ::-webkit-input-placeholder {
+    color: #fff;
+}
+#contact button{
+    background: #233537;
+    border: none;
+    border-radius: 0;
+}
+/*FOOTER*/
+
+footer{
+    background: #233537;
+}
+footer span{
+    color: #10cab7;
+}
